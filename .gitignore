@@ -1,0 +1,10 @@
+# Generated output
+dist/
+.cache/
+.tmp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

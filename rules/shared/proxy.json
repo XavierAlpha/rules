@@ -1,0 +1,22 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "domain": [
+                "services.googleapis.cn",
+                "connectivitycheck.gstatic.com",
+                "fonts.gstatic.com",
+                "fonts.googleapis.com"
+            ],
+            "domain_suffix": [
+                "aimmv.com",
+                "adspower.net",
+                "adspower.com"
+            ],
+            "domain_regex": [
+                ".*cloudworkers\\.virtualclouds\\.top",
+                ".*apinsights\\.virtualclouds\\.top"
+            ]
+        }
+    ]
+}

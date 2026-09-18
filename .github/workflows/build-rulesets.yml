@@ -1,0 +1,71 @@
+name: Build sing-box rule sets
+
+on:
+  push:
+    paths:
+      - 'rules/*.json'
+      - 'rules/**/*.json'
+      - 'scripts/**'
+      - '.github/workflows/build-rulesets.yml'
+      - 'Makefile'
+      - 'README.md'
+  pull_request:
+    paths:
+      - 'rules/*.json'
+      - 'rules/**/*.json'
+      - 'scripts/**'
+      - '.github/workflows/build-rulesets.yml'
+      - 'Makefile'
+  workflow_dispatch:
+  schedule:
+    # Rebuild automatically so an upstream stable sing-box release can refresh SRS output.
+    - cron: '17 3 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sing-box-rulesets-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      RULES_DIR: ${{ github.workspace }}/rules
+      DIST_DIR: ${{ github.workspace }}/dist
+      PUBLISH_BRANCH: release
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Build and verify all rule sets
+        shell: bash
+        run: bash ./scripts/build.sh
+
+      - name: Add build summary
+        if: always() && hashFiles('dist/build-summary.md') != ''
+        shell: bash
+        run: cat dist/build-summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sing-box-rulesets-${{ github.sha }}
+          path: dist/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 6
+
+      - name: Publish stable download branch
+        if: >-
+          github.event_name != 'pull_request' &&
+          github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+        shell: bash
+        run: bash ./scripts/publish-release-branch.sh

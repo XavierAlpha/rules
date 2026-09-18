@@ -1,0 +1,29 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "process_name": [
+                "world.exe",
+                "sing-box.exe",
+                "xray.exe",
+                "Thunder.exe",
+                "Aplayer.exe",
+                "ThunderVIP.exe",
+                "qbittorrent.exe",
+                "qbittorrent-nox",
+                "uTorrent.exe",
+                "WeChat.exe",
+                "WeChatAppEx.exe",
+                "WeChatPlayer.exe",
+                "WeChatOCR.exe",
+                "WeChatUtility.exe",
+                "mmcrashpad_handler64.exe",
+                "tailscaled.exe",
+                "tailscale-ipn.exe",
+                "zerotier-one_x64.exe",
+                "zerotier_desktop_ui.exe",
+                "rustdesk.exe"
+            ]
+        }
+    ]
+}
