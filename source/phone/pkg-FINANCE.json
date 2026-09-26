@@ -1,0 +1,32 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "package_name": [
+                "com.transferwise.android", 
+                "com.paypal.android.p2pmobile", 
+                "atws.app", 
+                "com.ifast.gb", 
+                "com.kraken.invest.app", 
+                "com.kraken.trade", 
+                "com.binance.dev", 
+                "com.bybit.app", 
+                "hk.alipay.wallet", 
+                "com.ocbc.mobile", 
+                "com.okinc.okex.gp", 
+                "com.yahoo.mobile.client.android.finance", 
+                "io.metamask", 
+                "com.redotpay", 
+                "com.tronlinkpro.wallet", 
+                "com.wallet.crypto.trustapp", 
+                "pro.huobi", 
+                "com.tradingview.tradingviewapp", 
+                "com.mobillium.papara", 
+                "com.ininal.wallet", 
+                "com.chippercash", 
+                "com.klasha.app", 
+                "com.ozan.android" 
+            ]
+        }
+    ]
+}

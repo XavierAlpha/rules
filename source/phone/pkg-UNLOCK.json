@@ -1,0 +1,17 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "package_name": [
+                "com.instagram.android", 
+                "com.instagram.lite", 
+                "com.instagram.barcelona", 
+                "com.reddit.frontpage", 
+                "com.zhiliaoapp.musically", 
+                "com.zhiliaoapp.musically.go", 
+                "com.ss.android.tt.creator", 
+                "com.netflix.mediaclient" 
+            ]
+        }
+    ]
+}

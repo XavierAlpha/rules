@@ -1,0 +1,25 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "domain_suffix": [
+                "msftconnecttest.com",
+                "cloudflare-ech.com"
+            ],
+            "domain_keyword": [
+                "kwai",
+                "kwing",
+                "yximg",
+                "kuai"
+            ],
+            "domain_regex": [
+                ".*wginsights\\.virtualclouds\\.top",
+                ".*sinsights\\.virtualclouds\\.top",
+                ".*derper\\.virtualclouds\\.top",
+                ".*r[xyc]\\.aimmv\\.com",
+                ".*s[ra]\\.aimmv\\.com",
+                "inf.*\\.infernow\\.online"
+            ]
+        }
+    ]
+}

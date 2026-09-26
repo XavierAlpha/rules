@@ -1,0 +1,35 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "process_name": [
+                "Code.exe",
+                "GoogleDriveFS.exe",
+                "Microsoft.SharePoint.exe",
+                "OfficeClickToRun.exe",
+                "OneDrive.exe",
+                "Telegram.exe",
+                "ollama app.exe",
+                "Notion.exe",
+                "WinStore.App.exe",
+                "IDMan.exe",
+                "steam.exe",
+                "steamwebhelper.exe",
+                "gameoverlayui.exe",
+                "gameoverlayui64.exe",
+                "SteamService.exe",
+                "EpicGamesLauncher.exe",
+                "EpicWebHelper.exe",
+                "EOSOverlayRenderer-Win64-Shipping.exe",
+                "EOSOverlayRenderer-Win32-Shipping.exe",
+                "EpicOnlineServicesInstaller.exe",
+                "EpicOnlineServicesHost.exe",
+                "EasyAntiCheat_EOS.exe",
+                "RockstarService.exe",
+                "SocialClubHelper.exe",
+                "RockstarErrorHandler.exe",
+                "identity_helper.exe"
+            ]
+        }
+    ]
+}

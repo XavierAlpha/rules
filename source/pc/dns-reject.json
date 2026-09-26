@@ -1,0 +1,33 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "domain_keyword": [
+                "pcdn",
+                "httpdns"
+            ],
+            "domain": [
+                "255.255.255.255.in-addr.arpa"
+            ],
+            "domain_suffix": [
+                "18.198.in-addr.arpa",
+                "19.198.in-addr.arpa",
+                "0.0.0.0.2.0.0.0.1.0.0.2.ip6.arpa",
+                "0.in-addr.arpa",
+                "2.0.192.in-addr.arpa",
+                "100.51.198.in-addr.arpa",
+                "113.0.203.in-addr.arpa",
+                "ip6.arpa",
+                "bj1.api.bing.com",
+                "emoi-cncdn.bing.com",
+                "bing.com.cn",
+                "cn.bing.com",
+                "cn.bing.net",
+                "cn.mm.bing.net",
+                "ditu.live.com",
+                "microsoftnews.cn",
+                "msn.cn"
+            ]
+        }
+    ]
+}
