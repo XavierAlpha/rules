@@ -28,7 +28,20 @@
                 "RockstarService.exe",
                 "SocialClubHelper.exe",
                 "RockstarErrorHandler.exe",
-                "identity_helper.exe"
+                "identity_helper.exe",
+                "Discord.exe",
+                "WhatsApp.exe",
+                "Signal.exe",
+                "Slack.exe",
+                "Lark.exe",
+                "Spotify.exe",
+                "Figma.exe",
+                "Dropbox.exe",
+                "DropboxUpdate.exe",
+                "GitHubDesktop.exe",
+                "ms-teams.exe",
+                "ms-teams_modulehost.exe",
+                "ms-teamsupdate.exe"
             ]
         }
     ]

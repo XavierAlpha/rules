@@ -5,7 +5,8 @@
             "process_name": [
                 "Cherry Studio.exe",
                 "ChatGPT.exe",
-                "Codex.exe"
+                "Codex.exe",
+                "Claude.exe"
             ]
         }
     ]

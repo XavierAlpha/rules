@@ -2,6 +2,16 @@
     "version": 5,
     "rules": [
         {
+            "domain": [
+                "d1.yyzqtb.com",
+                "dl-3dm2.willcdn.cn",
+                "dx01.vmcxz.cn",
+                "txl8.nexitech.cn",
+                "txl9.nexitech.cn",
+                "vd.fyoption.cn",
+                "autohome.ifedge.com",
+                "suij1.oppass.cn"
+            ],
             "domain_suffix": [
                 "msftconnecttest.com",
                 "cloudflare-ech.com",
@@ -15,7 +25,11 @@
                 "kwaicdnx.com",
                 "yxixy.com",
                 "ssrcdn.com",
-                "ssscdn.com"
+                "ssscdn.com",
+                "xyydnode.com",
+                "xyydedge.com",
+                "ailingmao.com",
+                "qxwz.com"
             ],
             "domain_regex": [
                 ".*wginsights\\.virtualclouds\\.top",
