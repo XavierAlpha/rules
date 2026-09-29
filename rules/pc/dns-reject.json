@@ -2,12 +2,23 @@
     "version": 5,
     "rules": [
         {
-            "domain_keyword": [
-                "pcdn",
-                "httpdns"
-            ],
             "domain": [
-                "255.255.255.255.in-addr.arpa"
+                "255.255.255.255.in-addr.arpa",
+                "ads-i1.xhscdn.com",
+                "ads-i2.xhscdn.com",
+                "ads-i3.xhscdn.com",
+                "ads-i4.xhscdn.com",
+                "ads-i8.xhscdn.com",
+                "ads-i10.xhscdn.com",
+                "ads-img-al.xhscdn.com",
+                "ads-img-bak.xhscdn.com",
+                "ads-img-qc.xhscdn.com",
+                "ads-video-al.xhscdn.com",
+                "ads-video-qc.xhscdn.com",
+                "ads-vp5.xhscdn.com",
+                "t-ads.xiaohongshu.com",
+                "spider-tracker.xiaohongshu.com",
+                "hdns.k-dyn.com"
             ],
             "domain_suffix": [
                 "18.198.in-addr.arpa",

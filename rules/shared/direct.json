@@ -4,13 +4,18 @@
         {
             "domain_suffix": [
                 "msftconnecttest.com",
-                "cloudflare-ech.com"
-            ],
-            "domain_keyword": [
-                "kwai",
-                "kwing",
-                "yximg",
-                "kuai"
+                "cloudflare-ech.com",
+                "starrydyn.com",
+                "chenzhongtech.com",
+                "xxpkg.com",
+                "ndcimgs.com",
+                "ndcyx.com",
+                "ndcsk.com",
+                "xyyimgs.com",
+                "kwaicdnx.com",
+                "yxixy.com",
+                "ssrcdn.com",
+                "ssscdn.com"
             ],
             "domain_regex": [
                 ".*wginsights\\.virtualclouds\\.top",
