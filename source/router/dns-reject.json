@@ -1,0 +1,39 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "domain": [
+                "ads-i1.xhscdn.com",
+                "ads-i2.xhscdn.com",
+                "ads-i3.xhscdn.com",
+                "ads-i4.xhscdn.com",
+                "ads-i8.xhscdn.com",
+                "ads-i10.xhscdn.com",
+                "ads-img-al.xhscdn.com",
+                "ads-img-bak.xhscdn.com",
+                "ads-img-qc.xhscdn.com",
+                "ads-video-al.xhscdn.com",
+                "ads-video-qc.xhscdn.com",
+                "ads-vp5.xhscdn.com",
+                "t-ads.xiaohongshu.com",
+                "spider-tracker.xiaohongshu.com",
+                "hdns.k-dyn.com"
+            ],
+            "domain_suffix": [
+                ".18.198.in-addr.arpa",
+                ".19.198.in-addr.arpa",
+                ".0.0.0.0.2.0.0.0.1.0.0.2.ip6.arpa",
+                "api.installer.xiaomi.com",
+                "bj1.api.bing.com",
+                "emoi-cncdn.bing.com",
+                "bing.com.cn",
+                "cn.bing.com",
+                "cn.bing.net",
+                "cn.mm.bing.net",
+                "ditu.live.com",
+                "microsoftnews.cn",
+                "msn.cn"
+            ]
+        }
+    ]
+}
