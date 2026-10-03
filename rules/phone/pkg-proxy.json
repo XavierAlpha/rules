@@ -20,7 +20,6 @@
                 "com.android.vending", 
                 "com.google.android.gms", 
                 "com.google.android.gsf", 
-                "com.instagram.layout", 
                 "com.google.ar.lens", 
                 "com.google.android.apps.maps", 
                 "com.myvodafoneapp", 
@@ -58,16 +57,6 @@
                 "com.google.android.syncadapters.contacts", 
                 "com.google.android.apps.messaging", 
                 "org.telegram.messenger", 
-                "com.spotify.music", 
-                "com.discord", 
-                "com.twitter.android", 
-                "com.facebook.katana", 
-                "com.facebook.lite", 
-                "com.facebook.orca", 
-                "com.facebook.appmanager", 
-                "com.facebook.services", 
-                "com.whatsapp", 
-                "jp.naver.line.android", 
                 "com.microsoft.office.outlook", 
                 "com.microsoft.outlooklite", 
                 "com.snapchat.android", 
@@ -79,8 +68,7 @@
                 "com.google.android.apps.tachyon", 
                 "us.zoom.videomeetings", 
                 "com.lemon.lvoverseas", 
-                "com.ms.office365admin", 
-                "com.linkedin.android" 
+                "com.ms.office365admin"
             ]
         }
     ]
