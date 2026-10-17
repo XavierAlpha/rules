@@ -1,0 +1,14 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "domain_suffix": [
+                "speed.cloudflare.com",
+                "cachefly.cachefly.net",
+                "sgp-ping.vultr.com",
+                "nj-us-ping.vultr.com",
+                "speedtest.tokyo2.linode.com"
+            ]
+        }
+    ]
+}
