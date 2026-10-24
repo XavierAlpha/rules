@@ -1,0 +1,13 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "process_name": [
+                "Cherry Studio.exe",
+                "ChatGPT.exe",
+                "Codex.exe",
+                "Claude.exe"
+            ]
+        }
+    ]
+}
