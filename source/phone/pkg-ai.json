@@ -1,0 +1,16 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "package_name": [
+                "com.openai.chatgpt", 
+                "com.anthropic.claude", 
+                "com.google.android.apps.bard", 
+                "com.microsoft.copilot", 
+                "com.poe.android", 
+                "ai.x.grok", 
+                "notion.id" 
+            ]
+        }
+    ]
+}
