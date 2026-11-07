@@ -1,0 +1,28 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "type": "logical",
+            "mode": "or",
+            "rules": [
+                {
+                    "domain_keyword": "derp"
+                },
+                {
+                    "network": "tcp",
+                    "port": 58843,
+                    "port_range": "52115:52119"
+                },
+                {
+                    "network": "udp",
+                    "port": [
+                        58743,
+                        58943,
+                        53999,
+                        52116
+                    ]
+                }
+            ]
+        }
+    ]
+}

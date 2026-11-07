@@ -1,0 +1,11 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "package_name": [
+                "com.digitalextremes.warframemobile", 
+                "com.soulgamechst.majsoul" 
+            ]
+        }
+    ]
+}
