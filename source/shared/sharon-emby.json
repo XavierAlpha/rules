@@ -1,0 +1,11 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "domain": [
+                "emby.sakiko.de",
+                "emby-sharon.sakiko.de"
+            ]
+        }
+    ]
+}

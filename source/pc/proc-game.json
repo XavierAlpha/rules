@@ -1,0 +1,20 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "process_name": [
+                "dota2.exe",
+                "cs2.exe",
+                "GTA5.exe",
+                "GTA5_Enhanced.exe",
+                "GTA5_Enhanced_BE.exe",
+                "PlayGTAV.exe",
+                "ItTakesTwo.exe",
+                "ItTakesTwo_Trial.exe",
+                "Warframe.x64.exe",
+                "FallGuys_client.exe",
+                "trine4.exe"
+            ]
+        }
+    ]
+}
