@@ -1,0 +1,31 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "package_name": [
+                "com.instagram.android", 
+                "com.instagram.lite", 
+                "com.instagram.basel", 
+                "com.instagram.barcelona", 
+                "com.facebook.katana", 
+                "com.facebook.lite", 
+                "com.facebook.orca", 
+                "com.facebook.appmanager", 
+                "com.facebook.services", 
+                "com.spotify.music", 
+                "com.discord", 
+                "com.twitter.android", 
+                "com.whatsapp", 
+                "com.reddit.frontpage", 
+                "com.linkedin.android", 
+                "com.zhiliaoapp.musically", 
+                "com.zhiliaoapp.musically.go", 
+                "com.ss.android.tt.creator", 
+                "com.netflix.mediaclient", 
+                "jp.naver.line.android", 
+                "com.yahoo.mobile.client.android.finance", 
+                "com.tradingview.tradingviewapp"
+            ]
+        }
+    ]
+}

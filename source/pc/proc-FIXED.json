@@ -1,0 +1,13 @@
+{
+    "version": 5,
+    "rules": [
+        {
+            "process_name": [
+                "Discord.exe",
+                "WhatsApp.exe",
+                "Spotify.exe"
+            ]
+        }
+    ]
+}
+                
